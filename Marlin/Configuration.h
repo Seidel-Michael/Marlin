@@ -1769,8 +1769,8 @@
 // The size of the printable area
 // https://reprap.org/wiki/Configuring_Marlin_Bed_Dimensions
 // https://marlinfw.org/docs/configuration/configuration.html#movement-bounds
-#define X_BED_SIZE 140
-#define Y_BED_SIZE 140
+#define X_BED_SIZE 210
+#define Y_BED_SIZE 170
 // Huxley with 110x110 PEI board.
 //#define X_BED_SIZE 108
 //#define Y_BED_SIZE 108
@@ -1785,7 +1785,7 @@
 
 #define X_MAX_POS X_BED_SIZE
 #define Y_MAX_POS Y_BED_SIZE
-#define Z_MAX_POS 80
+#define Z_MAX_POS 120
 //#define I_MIN_POS 0
 //#define I_MAX_POS 50
 //#define J_MIN_POS 0
