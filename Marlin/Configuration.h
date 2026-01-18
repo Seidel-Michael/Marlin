@@ -1201,8 +1201,8 @@
  * Black rubber belt(MXL), 17 - tooth printed pulley : 92.635 step per mm (Huxley, Mendel Mono and Tri since 1 / 4 / 2013)
  * Black rubber belt(MXL), 18 - tooth aluminium pulley : 87.489 step per mm (Huxley, Mendel Mono and Tri since 1 / 1 / 2014)
  */
-#define XY_PULLEY_PITCH 2.5   // RepRapPro Huxley has T2.5 belts
-#define XY_PULLEY_TEETH 14.0  // RepRapPro Huxley has 14 teeth pulleys
+#define XY_PULLEY_PITCH 2   // GT2 Belt
+#define XY_PULLEY_TEETH 20.0  // RepRapPro Huxley has 20 teeth pulleys
 
 //
 // Standard NEMA 17 with fancy 5mm lead screws
