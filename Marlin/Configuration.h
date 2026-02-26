@@ -770,7 +770,7 @@
  *
  * With this option disabled, bang-bang will be used. BED_LIMIT_SWITCHING enables hysteresis.
  */
-//#define PIDTEMPBED
+#define PIDTEMPBED
 
 #if ENABLED(PIDTEMPBED)
   //#define MIN_BED_POWER 0
@@ -1770,21 +1770,21 @@
 // The size of the printable area
 // https://reprap.org/wiki/Configuring_Marlin_Bed_Dimensions
 // https://marlinfw.org/docs/configuration/configuration.html#movement-bounds
-#define X_BED_SIZE 210
-#define Y_BED_SIZE 170
+#define X_BED_SIZE 180
+#define Y_BED_SIZE 190
 // Huxley with 110x110 PEI board.
 //#define X_BED_SIZE 108
 //#define Y_BED_SIZE 108
 
 // Travel limits (linear=mm, rotational=°) after homing, corresponding to endstop positions.
-#define X_MIN_POS -9
-#define Y_MIN_POS -5
+#define X_MIN_POS 0
+#define Y_MIN_POS 0
 // Huxley with 110x110 PEI board.
 //#define X_MIN_POS -25
 //#define Y_MIN_POS -21
 #define Z_MIN_POS 0
 
-#define X_MAX_POS X_BED_SIZE
+#define X_MAX_POS X_BED_SIZE + 60
 #define Y_MAX_POS Y_BED_SIZE
 #define Z_MAX_POS 120
 //#define I_MIN_POS 0
